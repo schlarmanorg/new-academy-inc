@@ -1,0 +1,83 @@
+#header {
+    color:#ea3d3d;
+    width:calc(100% - 40px);  
+    padding:20px 20px 20px 20px;
+    height:100px;
+    background-color:white;
+}
+.header_logo {
+    float:left;
+    padding-left:50px;
+}
+.logos_wrap {
+    font-size:40px;
+    float:left;
+    width:130px;
+    
+}
+.splitter {
+    background-color:#ccc;
+    height:70px;
+    width:1.5px;
+    margin-top:15px;
+    float:left;
+    margin-left:20px;
+}
+.academyinc-logo {
+    float:left;
+    margin-left:30px;
+}
+.academyinc-logo > img {
+    width:90px;
+    margin-top:7px;
+}
+#landing {
+    padding-top:7%;
+}
+#landing > h1 {
+    font-size:4em;
+    color:#3b3d3f;
+}
+.counter {
+    padding-top:20px;
+}
+.progress-border {
+    width:800px;
+    height:50px;
+    border:5px solid #ea3d3d;
+    border-radius:3px;
+}
+.progress-bar {
+    width:0%;
+    height:50px;
+    background-color:#ea3d3d;
+    float:left;
+    transition: width 1s;
+}
+.food-count {
+    font-size:40px;
+    color:#3b3d3f;
+    padding-top:4%;
+}
+.current-food-count {
+    color:#ea3d3d;
+    font-size:90px;
+}
+@media only screen and (max-width: 600px) {
+    .progress-border {
+        width:90%;
+    }
+    #landing > h1 {
+        font-size:2.5em;
+        padding:0px 20px 0px 20px;
+    }
+    #header {
+        padding:20px 0px 20px 0px;
+        width:100%;
+    }
+    .header_logo {
+        float:none;
+        padding-left:none;
+        width:100%;
+    }
+}
